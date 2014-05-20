@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188253DD192B4CB000A4A0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253DC192B4CB000A4A0B8 /* Foundation.framework */; };
+		188253DF192B4CB000A4A0B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253DE192B4CB000A4A0B8 /* CoreGraphics.framework */; };
+		188253E1192B4CB000A4A0B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253E0192B4CB000A4A0B8 /* UIKit.framework */; };
+		188253E7192B4CB000A4A0B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188253E5192B4CB000A4A0B8 /* InfoPlist.strings */; };
+		188253E9192B4CB000A4A0B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188253E8192B4CB000A4A0B8 /* main.m */; };
+		188253ED192B4CB000A4A0B8 /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188253EC192B4CB000A4A0B8 /* LFAppDelegate.m */; };
+		188253F0192B4CB000A4A0B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188253EE192B4CB000A4A0B8 /* Main.storyboard */; };
+		188253F3192B4CB000A4A0B8 /* LFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188253F2192B4CB000A4A0B8 /* LFViewController.m */; };
+		188253F5192B4CB000A4A0B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188253F4192B4CB000A4A0B8 /* Images.xcassets */; };
+		188253FC192B4CB000A4A0B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253FB192B4CB000A4A0B8 /* XCTest.framework */; };
+		188253FD192B4CB000A4A0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253DC192B4CB000A4A0B8 /* Foundation.framework */; };
+		188253FE192B4CB000A4A0B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188253E0192B4CB000A4A0B8 /* UIKit.framework */; };
+		18825406192B4CB000A4A0B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18825404192B4CB000A4A0B8 /* InfoPlist.strings */; };
+		18825408192B4CB000A4A0B8 /* _8_TOM_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825407192B4CB000A4A0B8 /* _8_TOM_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188253FF192B4CB000A4A0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188253D1192B4CB000A4A0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188253D8192B4CB000A4A0B8;
+			remoteInfo = "08-TOM猫";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188253D9192B4CB000A4A0B8 /* 08-TOM猫.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-TOM猫.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188253DC192B4CB000A4A0B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188253DE192B4CB000A4A0B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188253E0192B4CB000A4A0B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188253E4192B4CB000A4A0B8 /* 08-TOM猫-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-TOM猫-Info.plist"; sourceTree = "<group>"; };
+		188253E6192B4CB000A4A0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188253E8192B4CB000A4A0B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188253EA192B4CB000A4A0B8 /* 08-TOM猫-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "08-TOM猫-Prefix.pch"; sourceTree = "<group>"; };
+		188253EB192B4CB000A4A0B8 /* LFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppDelegate.h; sourceTree = "<group>"; };
+		188253EC192B4CB000A4A0B8 /* LFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppDelegate.m; sourceTree = "<group>"; };
+		188253EF192B4CB000A4A0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188253F1192B4CB000A4A0B8 /* LFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFViewController.h; sourceTree = "<group>"; };
+		188253F2192B4CB000A4A0B8 /* LFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFViewController.m; sourceTree = "<group>"; };
+		188253F4192B4CB000A4A0B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188253FA192B4CB000A4A0B8 /* 08-TOM猫Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-TOM猫Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188253FB192B4CB000A4A0B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18825403192B4CB000A4A0B8 /* 08-TOM猫Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-TOM猫Tests-Info.plist"; sourceTree = "<group>"; };
+		18825405192B4CB000A4A0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18825407192B4CB000A4A0B8 /* _8_TOM_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_TOM_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188253D6192B4CB000A4A0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188253DF192B4CB000A4A0B8 /* CoreGraphics.framework in Frameworks */,
+				188253E1192B4CB000A4A0B8 /* UIKit.framework in Frameworks */,
+				188253DD192B4CB000A4A0B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188253F7192B4CB000A4A0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188253FC192B4CB000A4A0B8 /* XCTest.framework in Frameworks */,
+				188253FE192B4CB000A4A0B8 /* UIKit.framework in Frameworks */,
+				188253FD192B4CB000A4A0B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188253D0192B4CB000A4A0B8 = {
+			isa = PBXGroup;
+			children = (
+				188253E2192B4CB000A4A0B8 /* 08-TOM猫 */,
+				18825401192B4CB000A4A0B8 /* 08-TOM猫Tests */,
+				188253DB192B4CB000A4A0B8 /* Frameworks */,
+				188253DA192B4CB000A4A0B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188253DA192B4CB000A4A0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188253D9192B4CB000A4A0B8 /* 08-TOM猫.app */,
+				188253FA192B4CB000A4A0B8 /* 08-TOM猫Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188253DB192B4CB000A4A0B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188253DC192B4CB000A4A0B8 /* Foundation.framework */,
+				188253DE192B4CB000A4A0B8 /* CoreGraphics.framework */,
+				188253E0192B4CB000A4A0B8 /* UIKit.framework */,
+				188253FB192B4CB000A4A0B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188253E2192B4CB000A4A0B8 /* 08-TOM猫 */ = {
+			isa = PBXGroup;
+			children = (
+				188253EB192B4CB000A4A0B8 /* LFAppDelegate.h */,
+				188253EC192B4CB000A4A0B8 /* LFAppDelegate.m */,
+				188253EE192B4CB000A4A0B8 /* Main.storyboard */,
+				188253F1192B4CB000A4A0B8 /* LFViewController.h */,
+				188253F2192B4CB000A4A0B8 /* LFViewController.m */,
+				188253F4192B4CB000A4A0B8 /* Images.xcassets */,
+				188253E3192B4CB000A4A0B8 /* Supporting Files */,
+			);
+			path = "08-TOM猫";
+			sourceTree = "<group>";
+		};
+		188253E3192B4CB000A4A0B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188253E4192B4CB000A4A0B8 /* 08-TOM猫-Info.plist */,
+				188253E5192B4CB000A4A0B8 /* InfoPlist.strings */,
+				188253E8192B4CB000A4A0B8 /* main.m */,
+				188253EA192B4CB000A4A0B8 /* 08-TOM猫-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18825401192B4CB000A4A0B8 /* 08-TOM猫Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18825407192B4CB000A4A0B8 /* _8_TOM_Tests.m */,
+				18825402192B4CB000A4A0B8 /* Supporting Files */,
+			);
+			path = "08-TOM猫Tests";
+			sourceTree = "<group>";
+		};
+		18825402192B4CB000A4A0B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18825403192B4CB000A4A0B8 /* 08-TOM猫Tests-Info.plist */,
+				18825404192B4CB000A4A0B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188253D8192B4CB000A4A0B8 /* 08-TOM猫 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1882540B192B4CB000A4A0B8 /* Build configuration list for PBXNativeTarget "08-TOM猫" */;
+			buildPhases = (
+				188253D5192B4CB000A4A0B8 /* Sources */,
+				188253D6192B4CB000A4A0B8 /* Frameworks */,
+				188253D7192B4CB000A4A0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-TOM猫";
+			productName = "08-TOM猫";
+			productReference = 188253D9192B4CB000A4A0B8 /* 08-TOM猫.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188253F9192B4CB000A4A0B8 /* 08-TOM猫Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1882540E192B4CB000A4A0B8 /* Build configuration list for PBXNativeTarget "08-TOM猫Tests" */;
+			buildPhases = (
+				188253F6192B4CB000A4A0B8 /* Sources */,
+				188253F7192B4CB000A4A0B8 /* Frameworks */,
+				188253F8192B4CB000A4A0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18825400192B4CB000A4A0B8 /* PBXTargetDependency */,
+			);
+			name = "08-TOM猫Tests";
+			productName = "08-TOM猫Tests";
+			productReference = 188253FA192B4CB000A4A0B8 /* 08-TOM猫Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188253D1192B4CB000A4A0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					188253F9192B4CB000A4A0B8 = {
+						TestTargetID = 188253D8192B4CB000A4A0B8;
+					};
+				};
+			};
+			buildConfigurationList = 188253D4192B4CB000A4A0B8 /* Build configuration list for PBXProject "08-TOM猫" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188253D0192B4CB000A4A0B8;
+			productRefGroup = 188253DA192B4CB000A4A0B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188253D8192B4CB000A4A0B8 /* 08-TOM猫 */,
+				188253F9192B4CB000A4A0B8 /* 08-TOM猫Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188253D7192B4CB000A4A0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188253F5192B4CB000A4A0B8 /* Images.xcassets in Resources */,
+				188253E7192B4CB000A4A0B8 /* InfoPlist.strings in Resources */,
+				188253F0192B4CB000A4A0B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188253F8192B4CB000A4A0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18825406192B4CB000A4A0B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188253D5192B4CB000A4A0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188253ED192B4CB000A4A0B8 /* LFAppDelegate.m in Sources */,
+				188253E9192B4CB000A4A0B8 /* main.m in Sources */,
+				188253F3192B4CB000A4A0B8 /* LFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188253F6192B4CB000A4A0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18825408192B4CB000A4A0B8 /* _8_TOM_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18825400192B4CB000A4A0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188253D8192B4CB000A4A0B8 /* 08-TOM猫 */;
+			targetProxy = 188253FF192B4CB000A4A0B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188253E5192B4CB000A4A0B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188253E6192B4CB000A4A0B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188253EE192B4CB000A4A0B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188253EF192B4CB000A4A0B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18825404192B4CB000A4A0B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18825405192B4CB000A4A0B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18825409192B4CB000A4A0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1882540A192B4CB000A4A0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1882540C192B4CB000A4A0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-TOM猫/08-TOM猫-Prefix.pch";
+				INFOPLIST_FILE = "08-TOM猫/08-TOM猫-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1882540D192B4CB000A4A0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-TOM猫/08-TOM猫-Prefix.pch";
+				INFOPLIST_FILE = "08-TOM猫/08-TOM猫-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1882540F192B4CB000A4A0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-TOM猫.app/08-TOM猫";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-TOM猫/08-TOM猫-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "08-TOM猫Tests/08-TOM猫Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18825410192B4CB000A4A0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-TOM猫.app/08-TOM猫";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-TOM猫/08-TOM猫-Prefix.pch";
+				INFOPLIST_FILE = "08-TOM猫Tests/08-TOM猫Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188253D4192B4CB000A4A0B8 /* Build configuration list for PBXProject "08-TOM猫" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18825409192B4CB000A4A0B8 /* Debug */,
+				1882540A192B4CB000A4A0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1882540B192B4CB000A4A0B8 /* Build configuration list for PBXNativeTarget "08-TOM猫" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1882540C192B4CB000A4A0B8 /* Debug */,
+				1882540D192B4CB000A4A0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1882540E192B4CB000A4A0B8 /* Build configuration list for PBXNativeTarget "08-TOM猫Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1882540F192B4CB000A4A0B8 /* Debug */,
+				18825410192B4CB000A4A0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188253D1192B4CB000A4A0B8 /* Project object */;
+}
